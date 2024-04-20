@@ -5,6 +5,7 @@ import HeaderContainer from "./UI/HeaderContainer";
 import MainContainer from "./UI/MainContainer";
 import SideBar from "./Components/SideBar";
 import Search from "./Components/Search";
+import TrendingSection from "./Components/TrendingSection";
 
 function App() {
   return (
@@ -16,7 +17,9 @@ function App() {
         <HeaderContainer>
           <Search />
         </HeaderContainer>
-        <MainContainer></MainContainer>
+        <MainContainer>
+          <TrendingSection />
+        </MainContainer>
       </AppLaout>
     </>
   );

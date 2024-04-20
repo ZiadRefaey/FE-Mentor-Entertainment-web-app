@@ -1,7 +1,15 @@
+* {
+  font-family: "Outfit", sans-serif;
+}
 .headingL {
-  font-size: 32px;
+  font-size: 38px;
   font-weight: 300;
   letter-spacing: -0.5px;
+}
+.headingSmSc {
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: -0.31px;
 }
 .headingM {
   font-size: 24px;
